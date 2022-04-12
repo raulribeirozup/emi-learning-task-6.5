@@ -13,6 +13,7 @@
 		589D8A122805FBBA00E335D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589D8A102805FBBA00E335D9 /* Main.storyboard */; };
 		589D8A142805FBBC00E335D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589D8A132805FBBC00E335D9 /* Assets.xcassets */; };
 		589D8A172805FBBC00E335D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589D8A152805FBBC00E335D9 /* LaunchScreen.storyboard */; };
+		589D8A1F28061ACA00E335D9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589D8A1E28061ACA00E335D9 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		589D8A132805FBBC00E335D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		589D8A162805FBBC00E335D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		589D8A182805FBBC00E335D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589D8A1E28061ACA00E335D9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		589D8A092805FBBA00E335D9 /* LearningTask-6.5 */ = {
 			isa = PBXGroup;
 			children = (
+				589D8A2128061E9100E335D9 /* Supportive Files */,
+				589D8A132805FBBC00E335D9 /* Assets.xcassets */,
+				589D8A102805FBBA00E335D9 /* Main.storyboard */,
+				589D8A0E2805FBBA00E335D9 /* ViewController.swift */,
+			);
+			path = "LearningTask-6.5";
+			sourceTree = "<group>";
+		};
+		589D8A2128061E9100E335D9 /* Supportive Files */ = {
+			isa = PBXGroup;
+			children = (
 				589D8A0A2805FBBA00E335D9 /* AppDelegate.swift */,
 				589D8A0C2805FBBA00E335D9 /* SceneDelegate.swift */,
-				589D8A0E2805FBBA00E335D9 /* ViewController.swift */,
-				589D8A102805FBBA00E335D9 /* Main.storyboard */,
-				589D8A132805FBBC00E335D9 /* Assets.xcassets */,
+				589D8A1E28061ACA00E335D9 /* Theme.swift */,
 				589D8A152805FBBC00E335D9 /* LaunchScreen.storyboard */,
 				589D8A182805FBBC00E335D9 /* Info.plist */,
 			);
-			path = "LearningTask-6.5";
+			name = "Supportive Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				589D8A0F2805FBBA00E335D9 /* ViewController.swift in Sources */,
+				589D8A1F28061ACA00E335D9 /* Theme.swift in Sources */,
 				589D8A0B2805FBBA00E335D9 /* AppDelegate.swift in Sources */,
 				589D8A0D2805FBBA00E335D9 /* SceneDelegate.swift in Sources */,
 			);
